@@ -41,6 +41,10 @@ private static TodoApp mytodolist = new TodoApp();
        }while(!exit);
       
     }
+    
+    // Print some option for changes in ToDo list
+    
+    
    public static void options(){
        System.out.println("Press 1 for the task menu,\n" +
           "Press 2 for Adding item,\n" +
@@ -50,18 +54,30 @@ private static TodoApp mytodolist = new TodoApp();
           "Press 6 for searching the item,\n" +
           "Press 7 for exit");
     }
+    
+    // Add the ToDo tasks from the user
+    
+    
     public static void maketodo(){
        System.out.println("Enter your item: ");
        in.nextLine();
       String item = in.nextLine();
        mytodolist.addlist(item);
     }
+    
+    // Remove the ToDo Item from the ToDo list
+    
+    
     public static void removelist(){
        System.out.println("please enter your item: ");
       in.nextLine();
        String item = in.nextLine();
        mytodolist.removelist(item);
     }
+    
+    // add some more ToDo tasks in your ToDo list
+    
+    
     public static void updatelist(){
        System.out.println("Please enter your item : ");
        in.nextLine();
@@ -70,6 +86,10 @@ private static TodoApp mytodolist = new TodoApp();
        int list = in.nextInt()-1;
        mytodolist.updatelist(list,item);
     }
+    
+    // Find some item from the ToDo list
+    
+    
     public static void searchitem(){
        System.out.println("Enter your item: ");
        in.nextLine();
