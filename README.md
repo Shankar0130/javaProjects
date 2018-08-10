@@ -1,2 +1,2 @@
 # javaProjects
-A Simple Output Friendly To Do list with update,remove etc. Functionality 
+A Simple Console Friendly To Do list with update,remove etc. Functionality 
